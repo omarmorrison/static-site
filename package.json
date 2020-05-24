@@ -1,0 +1,28 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "starting site",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarmorrison/static-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omarmorrison/static-site/issues"
+  },
+  "homepage": "https://github.com/omarmorrison/static-site#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
+}
